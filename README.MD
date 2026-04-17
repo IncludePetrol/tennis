@@ -15,7 +15,7 @@ Con `tennis`, scegli il tuo colpo, e lui ti mette il tennis che vuoi.
 ## Regole del tennis
 
 - Di default(ennis) salva nella directory corrente(nnis)
-- Puoi mandare il tenni scelto in una directory specifica facendo un `-servizio "PATH"`
+- Puoi mandare il tennis scelto in una directory specifica facendo un `-servizio "PATH"`
 - Se la directory di `-servizio` non esiste(nnis), viene creata
 - Se il file esiste(nnis) già, il comando si ferma
 - Per sovrascrivere devi battere il file rivale e ti tocca fare un `--matchpoint`
