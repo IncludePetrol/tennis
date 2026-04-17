@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tennis"
+version = "0.1.0"
+description = "A tiny meme CLI that saves sinnet.jpg, racchetta.jpg, or pallina.jpg."
+readme = "README.MD"
+requires-python = ">=3.9"
+license = { text = "Tennis Meme License (TML) v1.0" }
+authors = [
+  { name = "Andrea" }
+]
+keywords = ["cli", "meme", "tennis", "sinner"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: End Users/Desktop",
+  "License :: Other/Proprietary License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Utilities"
+]
+
+[project.urls]
+Homepage = "https://github.com/includepetrol/Tennis"
+Repository = "https://github.com/includepetrol/Tennis"
+Issues = "https://github.com/includepetrol/Tennis/issues"
+
+[project.scripts]
+tennis = "tennis.cli:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["tennis*"]
+
+[tool.setuptools.package-data]
+"tennis.assets" = ["sinnet.jpg", "racchetta.jpg", "pallina.jpg"]

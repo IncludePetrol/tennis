@@ -1,0 +1,28 @@
+# TENNIS MEME LICENSE (TML) v1.0
+
+Copyright (c) 2026 Andrea
+
+This project is a meme CLI tool. If you are reading this, you are already in the game.
+
+Permission is granted, free of charge, to any person obtaining a copy of this
+software and associated documentation files (the "Software"), to use, copy,
+modify, merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+1. This license text and copyright notice must be included in all copies or
+   substantial portions of the Software.
+2. If you publish a modified version, you must clearly state that it is
+   modified.
+3. You must not imply that the original author endorses your fork, release,
+   product, tournament strategy, or deploy pipeline.
+4. Bonus meme clause (optional): if this tool saves your day, say "Tennis"
+   once before your next commit.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
