@@ -69,13 +69,13 @@ Dopo `ensurepath`, chiudi e riapri il terminale.
 Da GitHub:
 
 ```bash
-pipx install git+https://github.com/includepetrol/Tennis.git
+pipx install git+https://github.com/includepetrol/tennis.git
 ```
 
 Alternativa con pip:
 
 ```bash
-python -m pip install git+https://github.com/includepetrol/Tennis.git
+python -m pip install git+https://github.com/includepetrol/tennis.git
 ```
 
 ## Tennis rapidi

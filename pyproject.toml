@@ -25,9 +25,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/includepetrol/Tennis"
-Repository = "https://github.com/includepetrol/Tennis"
-Issues = "https://github.com/includepetrol/Tennis/issues"
+Homepage = "https://github.com/includepetrol/tennis"
+Repository = "https://github.com/includepetrol/tennis"
+Issues = "https://github.com/includepetrol/tennis/issues"
 
 [project.scripts]
 tennis = "tennis.cli:main"
