@@ -2,7 +2,7 @@
 
 ![sittet](tennis/assets/sinnet.jpg)
 
-Il tool definitivo per il te(nnis)rminale ha bisogno di piu tennis e meno logica.
+Il tool definitivo per quando il te(nnis)rminale ha bisogno di piu tennis e meno logica.
 
 Con `tennis`, scegli il tuo colpo, e lui ti mette il tennis che vuoi.
 
@@ -15,7 +15,7 @@ Con `tennis`, scegli il tuo colpo, e lui ti mette il tennis che vuoi.
 ## Regole del tennis
 
 - Di default(ennis) salva nella directory corrente(nnis)
-- Con `-servizio "PATH"` salva nella directory indicata
+- Puoi mandare il tenni scelto in una directory specifica facendo un `-servizio "PATH"`
 - Se la directory di `-servizio` non esiste(nnis), viene creata
 - Se il file esiste(nnis) già, il comando si ferma
 - Per sovrascrivere devi battere il file rivale e ti tocca fare un `--matchpoint`
@@ -66,17 +66,31 @@ py -m pipx ensurepath
 
 Dopo `ensurepath`, chiudi e riapri il terminale.
 
-Da GitHub:
+Da PyPI (consigliato):
 
 ```bash
-pipx install git+https://github.com/includepetrol/tennis.git
+pipx install tennis-sinnet
 ```
 
 Alternativa con pip:
 
 ```bash
+python -m pip install tennis-sinnet
+```
+
+Installazione diretta da GitHub:
+
+```bash
+pipx install git+https://github.com/includepetrol/tennis.git
+```
+
+GitHub con pip:
+
+```bash
 python -m pip install git+https://github.com/includepetrol/tennis.git
 ```
+
+Nota: il nome pacchetto su PyPI e `tennis-sinnet`, ma il comando da terminale resta `tennis`.
 
 ## Tennis rapidi
 
